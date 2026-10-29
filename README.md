@@ -16,8 +16,7 @@ No se incluyen las bajas producidas a lo largo de la legislatura.
 | Categoría | Criterio |
 |---|---|
 | **Experiencia profesional** | Declara al menos una actividad en el sector privado o un puesto público no político (funcionario, docente, personal sanitario, magistrado, personal laboral). Puede combinarla con cargos políticos. |
-| **Solo política o designación** | Todo lo declarado son cargos electos, cargos de gobierno o de libre designación (ministro, consejero, director general, delegado, jefe de gabinete, asesor o personal eventual), o cargos y empleos en partidos, grupos parlamentarios o la FEMP. También quien no detalla sus actividades y remite a otras declaraciones. |
-| **Sin experiencia declarada** | Declara expresamente no haber tenido actividad. |
+| **Solo política o designación** | Todo lo declarado son cargos electos, cargos de gobierno o de libre designación (ministro, consejero, director general, delegado, jefe de gabinete, asesor o personal eventual), o cargos y empleos en partidos, grupos parlamentarios o la FEMP. También quien no detalla sus actividades y remite a otras declaraciones, y quien no declara ninguna actividad: si no consta otra, su única experiencia es la política. |
 
 Dentro de la experiencia profesional se distinguen tres marcas: privada, pública no política, y si además se declaran cargos políticos.
 
