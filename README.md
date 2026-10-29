@@ -16,8 +16,8 @@ No se incluyen las bajas producidas a lo largo de la legislatura.
 | Categoría | Criterio |
 |---|---|
 | **Experiencia profesional** | Declara al menos una actividad en el sector privado o un puesto público no político (funcionario, docente, personal sanitario, magistrado, personal laboral). Puede combinarla con cargos políticos. |
-| **Solo política o designación** | Todo lo declarado son cargos electos, cargos de gobierno o de libre designación (ministro, consejero, director general, delegado, jefe de gabinete, asesor o personal eventual), o cargos y empleos en partidos. |
-| **Sin experiencia declarada** | El apartado está vacío o declara «ninguna». |
+| **Solo política o designación** | Todo lo declarado son cargos electos, cargos de gobierno o de libre designación (ministro, consejero, director general, delegado, jefe de gabinete, asesor o personal eventual), o cargos y empleos en partidos, grupos parlamentarios o la FEMP. También quien no detalla sus actividades y remite a otras declaraciones. |
+| **Sin experiencia declarada** | Declara expresamente no haber tenido actividad. |
 
 Dentro de la experiencia profesional se distinguen tres marcas: privada, pública no política, y si además se declaran cargos políticos.
 
@@ -45,21 +45,21 @@ Dentro de la experiencia profesional se distinguen tres marcas: privada, públic
 - **Autodeclaración.** Los datos no están verificados por terceros, y el nivel de detalle varía mucho de unos diputados a otros.
 - **OCR.** Puede haber errores de lectura, sobre todo en declaraciones manuscritas. Cada ficha enlaza al original para comprobarlo.
 
-## Dudas de clasificación
+## Casos límite
 
-Los casos marcados en la columna `dudas` aplican un criterio provisional:
+La columna `caso_limite` señala los casos cuya clasificación depende de un criterio:
 
 | Código | Situación | Criterio aplicado |
 |---|---|---|
-| `PARTIDO` | Empleo o asesoría en un partido o grupo parlamentario | Se cuenta como experiencia política. |
-| `DESIG` | Puesto directivo que puede ser de libre designación o técnico | Se decide caso a caso. |
-| `EXC` | Funcionario en servicios especiales o excedencia | Se cuenta como experiencia pública no política. |
-| `JUB` | Jubilado o retirado | Se decide caso a caso. |
-| `FECHA` | Actividad fuera de la ventana o posterior a la elección | Se cuenta igualmente. |
-| `MENOR` | Actividad no política marginal | Se decide caso a caso. |
-| `SINDICAL` | Cargo o empleo sindical | Se cuenta como profesional por el empleo de base. |
-| `REMITE` | No detalla y remite a otras declaraciones | Se clasifica según lo que menciona. |
-| `VERSION` | Clasificado con una versión anterior de la declaración | — |
+| `PARTIDO` | Empleo o asesoría en un partido o grupo parlamentario | Experiencia política. Las fundaciones y centros de estudios formalmente independientes del partido (FAES desde 2016) cuentan como privados. |
+| `DESIG` | Puesto directivo que puede ser de designación o técnico | Las direcciones y gerencias municipales o de empresas públicas sin plaza de funcionario, y el empleo en la FEMP, son política. La carrera diplomática y consular es profesional. |
+| `EXC` | Funcionario o empleado en servicios especiales o excedencia | Profesional: tener la plaza cuenta aunque no se ejerciera en la ventana. |
+| `JUB` | Jubilado o retirado | Profesional: la jubilación presupone una carrera previa. |
+| `FECHA` | Actividad fuera de la ventana | Los suplentes se miden desde su propio mandato; la experiencia declarada anterior a la ventana cuenta. |
+| `MENOR` | Actividad no política marginal (proyecto puntual, asociación, docencia sin retribución) | Política: no es un empleo. |
+| `SINDICAL` | Cargo o empleo sindical | Profesional por el empleo de base o por otra actividad no sindical. |
+| `REMITE` | No detalla y remite a otras declaraciones | Política. |
+| `VERSION` | Clasificado con una versión anterior de la declaración | Se usa la anterior porque la última no repite el apartado I. |
 
 ## Fuente
 
