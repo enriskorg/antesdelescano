@@ -7,7 +7,7 @@
 
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,650&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Barlow:wght@600;700&display=swap">
 <style>
 /* Layout: registro parlamentario — cabecera con el reparto, barras por grupo, y un listado filtrable tipo fichero */
 :root{
@@ -112,6 +112,9 @@ h2{font-family:var(--f-display);font-weight:650;font-size:22px;margin:0;text-wra
 .doubt .names button{font:inherit;color:var(--accent);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
 .method{font-size:13.5px;color:var(--muted);max-width:80ch;display:grid;gap:8px}
 .method p{margin:0}
+.foot{border-top:1px solid var(--line);padding-top:18px;display:flex;flex-wrap:wrap;gap:6px 14px;align-items:baseline;justify-content:space-between;font-size:13.5px;color:var(--muted)}
+.foot a{font-family:"Barlow",var(--f-body);font-weight:700;font-size:16px;color:var(--ink);text-decoration:none;letter-spacing:.01em}
+.foot a:hover,.foot a:focus-visible{text-decoration:underline;text-underline-offset:3px}
 @media (max-width:720px){
   .row summary{grid-template-columns:1fr}
   .tags{justify-content:flex-start}
@@ -189,6 +192,11 @@ h2{font-family:var(--f-display);font-weight:650;font-size:22px;margin:0;text-wra
       <p><b>Limitaciones.</b> La ventana es de cinco años y el formulario pide solo lo que «pueda condicionar su actividad política o le haya proporcionado ingresos», así que una carrera anterior queda fuera. Las declaraciones son autodeclaraciones sin verificar. En tres casos la última versión es una modificación que no repite el apartado I y se ha usado la versión anterior.</p>
     </div>
   </section>
+
+  <footer class="foot">
+    <span>Elaborada por Enrique Mesa Pérez · Datos: Registro de Intereses del Congreso de los Diputados</span>
+    <a href="https://enrisk.org" target="_blank" rel="noopener">enrisk.org</a>
+  </footer>
 </div>
 
 <script>
