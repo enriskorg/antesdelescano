@@ -26,7 +26,6 @@ Dentro de la experiencia profesional se distinguen tres marcas: privada, públic
 
 `data/clasificacion.csv` (separador `;`, UTF-8) contiene, por diputado:
 
-
 - formación, grupo parlamentario, circunscripción y situación;
 - la categoría asignada y un resumen de lo declarado;
 - el año aproximado desde el que cubren sus declaraciones;
@@ -38,7 +37,7 @@ Dentro de la experiencia profesional se distinguen tres marcas: privada, públic
 1. Se descargó la versión más reciente de cada declaración desde congreso.es.
 2. Los PDF son escaneos: el apartado I se extrajo con OCR (Tesseract, modelo en español).
 3. Cada declaración se clasificó leyendo ese texto. Las declaraciones vacías o ilegibles se revisaron sobre la imagen.
-4. Para los 133 diputados con declaración en la XIV se leyó también su apartado I (todas las versiones publicadas). 17 diputados que en la XV solo declaraban cargos políticos pasan a experiencia profesional por lo que declararon en la XIV.
+4. Para los 133 diputados con declaración en la XIV se leyó también su apartado I (todas las versiones publicadas).
 5. En los 31 diputados con varias versiones se revisaron también las anteriores. En tres casos la última versión es una modificación que no repite el apartado I y se usó la anterior.
 
 ## Limitaciones
