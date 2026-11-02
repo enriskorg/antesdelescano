@@ -44,13 +44,13 @@ Dentro de la experiencia profesional se distinguen tres marcas: privada, públic
 
 Para los diputados en los que las declaraciones no recogían experiencia profesional se consultó la biografía de su ficha oficial en congreso.es y, cuando no aportaba nada, Wikipedia (en castellano o catalán):
 
-- Si la fuente indica dónde se trabajó (empleador, administración, empresa propia o tipo de entidad), el diputado pasa a «Experiencia profesional», con la columna `clasificado_por_otras_fuentes` = 1 y un aviso en su ficha de que las declaraciones no lo recogen (66 diputados).
-- Si solo da la profesión («Abogado», «Comercial») sin dónde se ejerció, se mantiene en política (25 diputados; columna `solo_profesion_sin_lugar`).
+- Si la fuente identifica dónde se trabajó (un empleador o administración concretos, o un negocio o despacho propio), el diputado pasa a «Experiencia profesional», con la columna `clasificado_por_otras_fuentes` = 1 y un aviso en su ficha de que las declaraciones no lo recogen (52 diputados).
+- Si solo da la profesión o una descripción genérica («Abogado», «empleada de banca», «instituciones públicas y privadas») sin identificar dónde se ejerció, se mantiene en política (39 diputados; columna `actividad_sin_lugar_identificado`).
 - Si no se encuentra nada, se mantiene en política.
 - No cuentan los títulos académicos ni la mención «no ejerciente».
 - Si la biografía oficial y la declaración discrepan, prevalece la biografía oficial y se indica en la columna `nota` (Conesa, Sancho).
 
-Resultado: 260 con experiencia profesional y 90 solo con política o designación.
+Resultado: 246 con experiencia profesional y 104 solo con política o designación.
 
 ## Limitaciones
 
