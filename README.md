@@ -40,6 +40,10 @@ Dentro de la experiencia profesional se distinguen tres marcas: privada, públic
 4. Para los 133 diputados con declaración en la XIV se leyó también su apartado I (todas las versiones publicadas).
 5. En los 31 diputados con varias versiones se revisaron también las anteriores. En tres casos la última versión es una modificación que no repite el apartado I y se usó la anterior.
 
+## Otras fuentes
+
+Para los 156 diputados de «Solo política o designación» se consultó la biografía de su ficha oficial en congreso.es y, cuando no aportaba nada, Wikipedia (en castellano o catalán). En 91 se encontró alguna experiencia profesional, que figura en su ficha como «Según otras fuentes», con el enlace, sin cambiar la clasificación. No se cuentan los títulos académicos ni la mención «abogado no ejerciente». En algunos casos la fuente solo indica la profesión, sin fechas ni empleador. En los 65 restantes no se encontró nada en esas fuentes.
+
 ## Limitaciones
 
 - **Ventana de cinco años.** El formulario solo pide lo ocurrido en los cinco años previos al mandato (unos nueve años si hay declaración de la XIV), y solo lo que pueda condicionar la actividad política o haya dado ingresos. «Solo política» significa «solo política en esa ventana», no a lo largo de la carrera.
