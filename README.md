@@ -26,11 +26,10 @@ Dentro de la experiencia profesional se distinguen tres marcas: privada, públic
 
 `data/clasificacion.csv` (separador `;`, UTF-8) contiene, por diputado:
 
-- la categoría final y la que resultaría solo con la XV, y si cambia por la XIV;
 
 - formación, grupo parlamentario, circunscripción y situación;
 - la categoría asignada y un resumen de lo declarado;
-- las dudas de clasificación (ver abajo);
+- el año aproximado desde el que cubren sus declaraciones;
 - la fecha y el número de versiones de la declaración;
 - el enlace al PDF y el texto obtenido por OCR del apartado I.
 
@@ -49,21 +48,17 @@ Dentro de la experiencia profesional se distinguen tres marcas: privada, públic
 - **Autodeclaración.** Los datos no están verificados por terceros, y el nivel de detalle varía mucho de unos diputados a otros.
 - **OCR.** Puede haber errores de lectura, sobre todo en declaraciones manuscritas. Cada ficha enlaza al original para comprobarlo.
 
-## Casos límite
+## Criterios
 
-La columna `caso_limite` señala los casos cuya clasificación depende de un criterio:
+- Empleo o asesoría en un partido, grupo parlamentario o la FEMP: política. Las fundaciones formalmente independientes del partido (FAES desde 2016) cuentan como privadas.
+- Direcciones y gerencias municipales o de empresas públicas sin plaza de funcionario: política. La carrera diplomática es profesional.
+- Plaza de funcionario o empleo en excedencia o servicios especiales, y jubilación: profesional.
+- Actividades no laborales (proyectos puntuales, asociaciones, docencia o actividad agraria sin retribución): política.
+- Empleo de base o técnico en un sindicato: profesional; cargo de dirección sindical sin empleo de base declarado: política.
+- Quien no declara actividades o remite a otras declaraciones: política.
+- Si la última versión es una modificación que deja el apartado I en blanco, se usa la anterior.
 
-| Código | Situación | Criterio aplicado |
-|---|---|---|
-| `PARTIDO` | Empleo o asesoría en un partido o grupo parlamentario | Experiencia política. Las fundaciones y centros de estudios formalmente independientes del partido (FAES desde 2016) cuentan como privados. |
-| `DESIG` | Puesto directivo que puede ser de designación o técnico | Las direcciones y gerencias municipales o de empresas públicas sin plaza de funcionario, y el empleo en la FEMP, son política. La carrera diplomática y consular es profesional. |
-| `EXC` | Funcionario o empleado en servicios especiales o excedencia | Profesional: tener la plaza cuenta aunque no se ejerciera en la ventana. |
-| `JUB` | Jubilado o retirado | Profesional: la jubilación presupone una carrera previa. |
-| `FECHA` | Actividad fuera de la ventana | Los suplentes se miden desde su propio mandato; la experiencia declarada anterior a la ventana cuenta. |
-| `MENOR` | Actividad no política marginal (proyecto puntual, asociación, docencia sin retribución, actividad agraria sin remuneración) | Política: no es un empleo. |
-| `SINDICAL` | Cargo o empleo sindical | Profesional por el empleo de base, por un empleo técnico en el sindicato o por otra actividad no sindical. Un cargo de dirección sindical sin empleo de base declarado es político. |
-| `REMITE` | No detalla y remite a otras declaraciones | Política. |
-| `VERSION` | Clasificado con una versión anterior de la declaración | Se usa la anterior porque la última no repite el apartado I. |
+En las fichas de «Solo política o designación» figura «No consta experiencia previa de acuerdo con las declaraciones de intereses», con el periodo que cubren sus declaraciones (desde 2014 o desde 2018, aproximadamente). Las declaraciones no permiten descartar una carrera anterior a ese periodo.
 
 ## Fuente
 
